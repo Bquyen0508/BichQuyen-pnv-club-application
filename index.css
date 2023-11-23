@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.input{
+    width: 40%;
+    height: 30px;
+}
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+.label{
+    margin-right: 20px;
+}
+.submit{
+    width: 40%;
+    font-weight: bold;
+    color: white;
+    background-color: #ffa600;
+    border: 2px solid #bf5b04;
+}
+
+
+
+
+
