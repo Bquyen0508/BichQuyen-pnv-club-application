@@ -8,16 +8,12 @@
     height: 30px;
 }
 input[type="radio"]{
-    width: 20px;
-    height: 20px;
+    appearance: none;
 }
 input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
+    appearance: none;
 }
-.label{
-    margin-right: 20px;
-}
+
 .submit{
     width: 40%;
     font-weight: bold;
@@ -26,7 +22,50 @@ input[type="checkbox"] {
     border: 2px solid #bf5b04;
 }
 
+.checkbox:not(:checked)+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+    margin-right: 5px;
+    vertical-align: middle;
+}
 
+/* Checkbox đã được chọn */
+.checkbox:checked+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid orange;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-color: orange;
+}
 
+.radio:not(:checked)+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Checkbox đã được chọn */
+.radio:checked+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid orange;
+    border-radius: 50px;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-color: orange;
+}
 
 

@@ -38,13 +38,13 @@
                     Be time for you
                 </div>
                 <div class="col-sm-8">
-                    <input type="radio" style="color:orange;" id="Saturday mornings" name="time" value="Saturday mornings" class="radio">
-                    <label for="time1" class="label">Saturday mornings</label>
-                    <input type="radio" id="Saturday afternoons" name="time" value="Saturday afternoons" class="radio">
-                    <label for="time2" class="label">Saturday afternoons</label>
+                    <input type="radio" id="Sat-mornings" name="time" value="Saturday mornings" class="radio">
+                    <label for="Sat-mornings">Saturday mornings</label>
+                    <input type="radio" id="Sat-afternoons" name="time" value="Saturday afternoons" class="radio">
+                    <label for="Sat-afternoons">Saturday afternoons</label>
                     <br>
-                    <input type="radio" id="Sunday afternoons" name="time" value="Sunday afternoons" class="radio">
-                    <label for="time3" class="label">Sunday afternoons</label>
+                    <input type="radio" id="Sun-afternoons" name="time" value="Sunday afternoons" class="radio">
+                    <label for="Sun-afternoons">Sunday afternoons</label>
                 </div>
             </div>
             <div class="row mt-2">
@@ -52,46 +52,46 @@
                     Your skills
                 </div>
                 <div class="col-sm-2">
-                    <input type="checkbox" value="the best coder" class="checkbox" name="skill[]" checked>
-                    <label for="the best coder"><span></span>the best coder</label>
+                    <input type="checkbox" value="the best coder" class="checkbox" name="skill[]" id="the-best-coder">
+                    <label for="the-best-coder">the best coder</label>
                 </div>
                 <div class="col-sm-2">
-                    <input type="checkbox" value="good in arts" class="checkbox" name="skill[]">
-                    <label for="good in arts"><span></span>good in arts</label>
+                    <input type="checkbox" value="good in arts" class="checkbox" name="skill[]" id="good-in-arts">
+                    <label for="good-in-arts">good in arts</label>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-2">
-                    <input type="checkbox" value="a super star" class="checkbox" name="skill[]">
-                    <label for="a super star"><span></span>a super star</label>
+                    <input type="checkbox" value="a super star" class="checkbox" name="skill[]" id="a-super-star">
+                    <label for="a-super-star">a super star</label>
                 </div>
                 <div class="col-sm-2">
-                    <input type="checkbox" value="a crazy dancer" class="checkbox" name="skill[]">
-                    <label for="a crazy dancer"><span></span>a crazy dancer</label>
+                    <input type="checkbox" value="a crazy dancer" class="checkbox" name="skill[]" id="a-crazy-dancer">
+                    <label for="a-crazy-dancer">a crazy dancer</label>
                 </div>
             </div>
             <div class="row mt-3">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-2">
-                    <input type="checkbox" value="singer" class="checkbox" name="skill[]">
-                    <label for="singer"><span></span>singer</label>
+                    <input type="checkbox" value="singer" class="checkbox" name="skill[]" id="singer">
+                    <label for="singer">singer</label>
                 </div>
 
                 <div class="col-sm-2">
-                    <input type="checkbox" value="good in design" class="checkbox" name="skill[]">
-                    <label for="good in design"><span></span>good in design</label>
+                    <input type="checkbox" value="good in design" class="checkbox" name="skill[]" id="good-in-design">
+                    <label for="good-in-design">good in design</label>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-2">
-                    <input type="checkbox" value="the best eater" class="checkbox" name="skill[]">
-                    <label for="the best eater"><span></span>the best eater</label>
+                    <input type="checkbox" value="the best eater" class="checkbox" name="skill[]" id="the-best-eater">
+                    <label for="the-best-eater">the best eater</label>
                 </div>
                 <div class="col-sm-2">
-                    <input type="checkbox" value="good in speeches" class="checkbox" name="skill[]">
-                    <label for="good in speeches"><span></span>good in speeches</label>
+                    <input type="checkbox" value="good in speeches" class="checkbox" name="skill[]" id="good-in-speeches">
+                    <label for="good-in-speeches">good in speeches</label>
                 </div>
             </div>
             <button type="submit" class="submit mt-3 mb-3">SUBMIT !</button>
